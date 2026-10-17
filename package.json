@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview",
-    "clean": "rm -rf dist server.js",
+    "preview": "vite preview --port=3000 --host=0.0.0.0",
+    "start": "node server.js",
+    "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@google/genai": "^2.4.0",
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^6.1.1",
     "canvas-confetti": "^1.9.4",

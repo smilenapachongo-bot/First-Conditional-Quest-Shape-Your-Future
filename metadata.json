@@ -2,5 +2,5 @@
   "name": "First Conditional Quest: Shape Your Future!",
   "description": "Make smart choices, predict future results, and master the First Conditional through exciting educational challenges!",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
